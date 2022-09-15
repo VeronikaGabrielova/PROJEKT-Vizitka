@@ -30,10 +30,14 @@ body {
     box-shadow: black 4px 6px 20px;
     border-radius: 10px;
     background-color: white;
+    position: relative;
 }
 
 .fotka {
-    border-radius: 150px;
+    position: absolute;
+    right: -75px;
+    top: -75px;
+    border-radius: 75px;
     border: 3px solid white;
 
 }
@@ -44,7 +48,6 @@ h1 {
     font-size: 36px;
     margin-bottom: 0;
     margin-top: 0;
-    padding-top: 30px;
 }
 
 .odsazeni1 {
@@ -56,13 +59,57 @@ h1 {
     margin-bottom: 0;
     padding-bottom: 30px;
 }
+ ul { 
+    padding: 0;
+    list-style: none;
+    margin: 0;
+ }
 
 .twitter {
+    background-color: #1da1f2;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Nunito', sans-serif;
 
+   
 }
 
+.twitter a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
 
+.twitter a:hover {color:#0b7bc1;}
 
+.facebook {
+    background-color: #3b5998;
+    display: block;
+    margin: 5px auto;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Nunito', sans-serif;
+}
 
+.facebook a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.facebook a:hover {color:#2b406e;}
 
 
