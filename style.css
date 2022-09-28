@@ -73,7 +73,7 @@ h1 {
 .twitter {
   background-color: #1da1f2;
   display: block;
-  margin: 0 auto;
+  margin: 0;
   width: 100%;
   border: 0;
   padding: 10px;
@@ -96,7 +96,7 @@ h1 {
 .facebook {
   background-color: #3b5998;
   display: block;
-  margin: 5px auto;
+  margin-top: 5px;
   width: 100%;
   border: 0;
   padding: 10px;
