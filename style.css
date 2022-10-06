@@ -47,71 +47,42 @@ body {
 }
 
 h1 {
+  margin-bottom: 30px;
+  margin-top: 0;
   color: #d63031;
   font-weight: bold;
   font-size: 36px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.odsazeni1 {
-  padding-top: 30px;
-  margin-top: 0;
-}
-
-.odsazeni2 {
-  margin-bottom: 0;
-  padding-bottom: 30px;
 }
 
 .tlacitka {
+  margin: 0;
   padding: 0;
   list-style: none;
-  margin: 0;
 }
-
-.twitter {
+.tlacitka a {
+  display: block;
+  padding: 10px;
+  margin: 30px 0 0 0;
+  width: 100%;
   background-color: #1da1f2;
-  display: block;
-  margin: 0;
-  width: 100%;
-  border: 0;
-  padding: 10px;
-  border-radius: 5px;
-  font-family: "Nunito", sans-serif;
-}
-
-.twitter a {
-  text-decoration: none;
   color: white;
-  font-size: 18px;
   font-weight: bold;
+  text-decoration: none;
   text-transform: uppercase;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.twitter a:hover {
-  color: #0b7bc1;
-}
-
-.facebook {
-  background-color: #3b5998;
-  display: block;
+li .facebook {
   margin-top: 5px;
-  width: 100%;
-  border: 0;
-  padding: 10px;
-  border-radius: 5px;
-  font-family: "Nunito", sans-serif;
+  background-color: #3b5998;
 }
 
-.facebook a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
+.twitter:hover,
+.twitter:focus {
+  background-color: #0b7bc1;
 }
-
-.facebook a:hover {
-  color: #2b406e;
+.facebook:hover,
+.facebook:focus {
+  background-color: #2b406e;
 }
